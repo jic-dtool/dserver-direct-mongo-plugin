@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A plugin for [dservercore](https://github.com/livMatS/dservercore) (the dtool lookup server). It exposes two HTTP routes that let clients submit **raw MongoDB queries and aggregation pipelines** directly against the metadata collection, rather than only the structured search the core offers. It is registered with the host server via the `dservercore.extension` entry point declared in `pyproject.toml`.
+A plugin for [dservercore](https://github.com/jic-dtool/dservercore) (the dtool lookup server). It exposes two HTTP routes that let clients submit **raw MongoDB queries and aggregation pipelines** directly against the metadata collection, rather than only the structured search the core offers. It is registered with the host server via the `dservercore.extension` entry point declared in `pyproject.toml`.
 
 ## Commands
 
